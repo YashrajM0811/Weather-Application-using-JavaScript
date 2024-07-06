@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('./Image.jpg') no-repeat center center/cover;
+    opacity: 0.9; 
+    z-index: -1;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+}
+
+#icon{
+    background-color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#weather{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+#temperature{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#description{
+    font-size: 16px;
+}
+
+.input input{
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+   padding: 10px 20px;
+}
+
+.input button{
+    padding: 10px 20px;
+    background-color: #0099ff;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.weather-box{
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 350px;
+    height: 250px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+.footer a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
