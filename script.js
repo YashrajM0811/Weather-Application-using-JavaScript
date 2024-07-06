@@ -5,7 +5,7 @@ const weather = document.getElementById("weather");
 const description = document.getElementById("description");
 const temperature = document.getElementById("temperature");
 
-const apiKey = "6f964d7e705371c5af24c2bbfba6a53c";
+const apiKey = "ADD_YOUR_API_KEY_USING_OPENWEATHER_API";
 
 btn.addEventListener("click", () => {
   let city = input.value;
